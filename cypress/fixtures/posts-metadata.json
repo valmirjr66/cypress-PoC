@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "manifest-of-the-communist-party",
+    "coverImage": "https://storage.googleapis.com/artigos-jornal-psol-itauna/cover1.jpg",
+    "title": "Manifesto of the Communist Party",
+    "subtitle": "by Karl Marx and Frederick Engels"
+  },
+  {
+    "_id": "a-vida-nao-e-util",
+    "coverImage": "https://storage.googleapis.com/artigos-jornal-psol-itauna/a-vida-nao-e-util.jpg",
+    "title": "A vida não é útil"
+  },
+  {
+    "_id": "o-auto-da-compadecida",
+    "coverImage": "https://storage.googleapis.com/artigos-jornal-psol-itauna/auto-da-compadecida.jpg",
+    "title": "O Auto da Compadecida"
+  }
+]
