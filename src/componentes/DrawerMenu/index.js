@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Menu, Sidebar } from 'semantic-ui-react';
+import { ItemWrapper } from './index.style';
 
 const DrawerMenu = ({ items, visible, setVisible }) => {
     return (
@@ -20,8 +21,11 @@ const DrawerMenu = ({ items, visible, setVisible }) => {
                         as='a'
                         href={`/by-category?category=${item.value}`}
                         style={{ textTransform: 'uppercase' }}
+                        key={item.value}
                     >
-                        {item.label}
+                        <ItemWrapper>
+                            {item.label}
+                        </ItemWrapper>
                     </Menu.Item>
                 ))
             }
