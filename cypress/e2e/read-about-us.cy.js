@@ -6,11 +6,6 @@ describe('Test the basic flow for opening About Us tab', () => {
       {
         url: 'https://my.api.mockaroo.com/**',
         middleware: true,
-      },
-      (req) => {
-        req.on('response', (res) => {
-          res.setDelay(1000);
-        })
       }
     );
   });
